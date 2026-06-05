@@ -1,0 +1,11 @@
+{
+  "_comment": "V0.6 calibration — train set Jan–Oct 2025. N=15 events.",
+  "ic_threshold": 0.6,
+  "z_entry": 1.0,
+  "max_weight": 0.20,
+  "holding_bars": 8,
+  "post_ann_window_bars": 8,
+  "pre_ann_window_bars": 4,
+  "version": "V0.6",
+  "calibrated_on": "2025-10-31"
+}
