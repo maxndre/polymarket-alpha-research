@@ -1,0 +1,275 @@
+{
+  "optimal_z": 7.000000000000001,
+  "z_long": 7.000000000000001,
+  "z_short": 7.000000000000001,
+  "fdr_alpha": 0.05,
+  "regime_q": 0.1,
+  "p_value_threshold": 0.05,
+  "resample_freq": "15min",
+  "scaling_factor": 0.5,
+  "calibration_objective": "fixed_z10_economic_weights",
+  "betas": {
+    "AAPL": 0.9625041248441686,
+    "ADBE": 0.8309789141347202,
+    "AMD": 1.517895818172879,
+    "AMZN": 1.133371677213622,
+    "AVGO": 1.5114031974154771,
+    "AXP": 1.1639557513668595,
+    "BA": 1.1841135615539737,
+    "BAC": 1.076605970705245,
+    "C": 1.2636959818169406,
+    "CAT": 1.0743499082400088,
+    "COF": 1.3491629401984964,
+    "COP": 0.899280528483858,
+    "CRM": 1.023075760298253,
+    "CVX": 0.69345085876328,
+    "DE": 0.894447816596473,
+    "DIS": 0.9097785588047079,
+    "DOW": 1.1360655508733895,
+    "DUK": 0.2425929080745933,
+    "F": 0.9928484825797929,
+    "GE": 1.0264772371524389,
+    "GOOG": 0.9556388495746653,
+    "GOOGL": 0.9664124782226197,
+    "GS": 1.2947589213271657,
+    "HD": 0.7598611596612429,
+    "IBM": 0.865637646457841,
+    "JPM": 1.0127587569621357,
+    "LOW": 0.7946188033061397,
+    "MA": 0.7827449599158209,
+    "META": 1.2165837658258898,
+    "MS": 1.32189656495505,
+    "MSFT": 0.7481816741194726,
+    "NFLX": 0.9601259123470727,
+    "NVDA": 1.54431762230123,
+    "ORCL": 1.2250269959422886,
+    "PYPL": 1.1406296031000491,
+    "QCOM": 1.332070760887675,
+    "RTX": 0.6148557708560977,
+    "SCHW": 0.9696892120358029,
+    "SO": 0.25172321418626675,
+    "TMUS": 0.3751545367946431,
+    "TSLA": 1.8198018248911338,
+    "TXN": 1.2034330131535595,
+    "USB": 1.0671497973474593,
+    "V": 0.779115524288187,
+    "VZ": 0.2664669641787855,
+    "WFC": 1.1624756904006912,
+    "XOM": 0.6828144296718369
+  },
+  "stats_x": {
+    "AI & Technology|||shannon_entropy * notional_usdc_total": {
+      "mu": -0.22228310006406457,
+      "std": 113.9810831767598
+    },
+    "AI & Technology|||price_weighted_mean * volume_shares_total": {
+      "mu": -0.6896702990428171,
+      "std": 333.555078042777
+    },
+    "AI & Technology|||spread_mean": {
+      "mu": -2.9046063818463124e-06,
+      "std": 0.0017887394029098328
+    },
+    "Acquisitions|||shannon_entropy * notional_usdc_total": {
+      "mu": -0.006318927148624587,
+      "std": 8.831456523071333
+    },
+    "Acquisitions|||spread_mean": {
+      "mu": 6.979677726085901e-06,
+      "std": 0.0011977441729162984
+    },
+    "Crypto Prices|||spread_mean": {
+      "mu": 9.123794622048694e-07,
+      "std": 0.02540605054709135
+    },
+    "Elections|||shannon_entropy * notional_usdc_total": {
+      "mu": -0.042483584438861625,
+      "std": 93.04107033102012
+    },
+    "Elections|||spread_mean": {
+      "mu": -1.6616381469921045e-06,
+      "std": 0.0012516361084133475
+    },
+    "Energy & Commodities|||shannon_entropy * notional_usdc_total": {
+      "mu": -0.016633915172512212,
+      "std": 10.012535985606677
+    },
+    "Equities & Earnings|||spread_mean": {
+      "mu": 6.109510325725741e-06,
+      "std": 0.0025239960055832874
+    },
+    "Equities & Earnings|||price_weighted_mean * volume_shares_total": {
+      "mu": -0.32665296922497405,
+      "std": 257.371237404182
+    },
+    "Fed Policy|||spread_mean": {
+      "mu": 3.2834357694065265e-06,
+      "std": 0.0006821314173448106
+    },
+    "Fed Policy|||price_weighted_mean * volume_shares_total": {
+      "mu": 5.243890028050115,
+      "std": 5907.129514121333
+    },
+    "Geopolitics|||shannon_entropy * notional_usdc_total": {
+      "mu": -0.3261487843401544,
+      "std": 598.4682561411867
+    },
+    "Geopolitics|||price_weighted_mean * volume_shares_total": {
+      "mu": 1.0380482081878966,
+      "std": 3811.270361292358
+    },
+    "Inflation|||spread_mean": {
+      "mu": -2.4826747078530636e-06,
+      "std": 0.0009005261390968867
+    },
+    "Macro / Economy|||price_weighted_mean * volume_shares_total": {
+      "mu": -1.2739273480008826,
+      "std": 521.4019390192132
+    },
+    "Macro / Economy|||spread_mean": {
+      "mu": 5.919908457134344e-07,
+      "std": 0.0008182064145141968
+    },
+    "Macro / Economy|||shannon_entropy * notional_usdc_total": {
+      "mu": 0.037879666191668014,
+      "std": 219.82568355565297
+    },
+    "Science & Tech|||shannon_entropy * notional_usdc_total": {
+      "mu": 0.005385639640486554,
+      "std": 3.766250175898559
+    },
+    "Science & Tech|||spread_mean": {
+      "mu": -1.0633222337263324e-06,
+      "std": 0.0004507554161547529
+    },
+    "Trade & Tariffs|||shannon_entropy * notional_usdc_total": {
+      "mu": -0.5593747012796726,
+      "std": 166.08423610188072
+    },
+    "Trade & Tariffs|||spread_mean": {
+      "mu": -8.094490459651608e-06,
+      "std": 0.005838412298801763
+    },
+    "US Politics|||spread_mean": {
+      "mu": -2.1784237315914763e-05,
+      "std": 0.004127714546262368
+    },
+    "US Politics|||shannon_entropy * notional_usdc_total": {
+      "mu": -0.07986485221544619,
+      "std": 217.8791150580146
+    },
+    "War & Conflict|||shannon_entropy * notional_usdc_total": {
+      "mu": -0.10422813564248296,
+      "std": 456.89884556409766
+    },
+    "War & Conflict|||spread_mean": {
+      "mu": 5.806140314651958e-07,
+      "std": 0.0064239345821317274
+    }
+  },
+  "regime_thresholds": {
+    "AI & Technology|||shannon_entropy * notional_usdc_total": 1e-08,
+    "AI & Technology|||price_weighted_mean * volume_shares_total": 1e-08,
+    "AI & Technology|||spread_mean": 1e-08,
+    "Acquisitions|||shannon_entropy * notional_usdc_total": 1e-08,
+    "Acquisitions|||spread_mean": 1e-08,
+    "Crypto Prices|||spread_mean": 1e-08,
+    "Elections|||shannon_entropy * notional_usdc_total": 1e-08,
+    "Elections|||spread_mean": 1e-08,
+    "Energy & Commodities|||shannon_entropy * notional_usdc_total": 1e-08,
+    "Equities & Earnings|||spread_mean": 1e-08,
+    "Equities & Earnings|||price_weighted_mean * volume_shares_total": 1e-08,
+    "Fed Policy|||spread_mean": 1e-08,
+    "Fed Policy|||price_weighted_mean * volume_shares_total": 1e-08,
+    "Geopolitics|||shannon_entropy * notional_usdc_total": 1e-08,
+    "Geopolitics|||price_weighted_mean * volume_shares_total": 1e-08,
+    "Inflation|||spread_mean": 1e-08,
+    "Macro / Economy|||price_weighted_mean * volume_shares_total": 1e-08,
+    "Macro / Economy|||spread_mean": 1e-08,
+    "Macro / Economy|||shannon_entropy * notional_usdc_total": 1e-08,
+    "Science & Tech|||shannon_entropy * notional_usdc_total": 1e-08,
+    "Science & Tech|||spread_mean": 1e-08,
+    "Trade & Tariffs|||shannon_entropy * notional_usdc_total": 1e-08,
+    "Trade & Tariffs|||spread_mean": 1e-08,
+    "US Politics|||spread_mean": 1e-08,
+    "US Politics|||shannon_entropy * notional_usdc_total": 1e-08,
+    "War & Conflict|||shannon_entropy * notional_usdc_total": 1e-08,
+    "War & Conflict|||spread_mean": 1e-08
+  },
+  "signs": {
+    "AI & Technology|||AAPL|||shannon_entropy * notional_usdc_total": 1,
+    "AI & Technology|||ADBE|||shannon_entropy * notional_usdc_total": 1,
+    "AI & Technology|||AMD|||shannon_entropy * notional_usdc_total": 1,
+    "AI & Technology|||AVGO|||price_weighted_mean * volume_shares_total": 1,
+    "AI & Technology|||GOOG|||shannon_entropy * notional_usdc_total": 1,
+    "AI & Technology|||GOOGL|||shannon_entropy * notional_usdc_total": 1,
+    "AI & Technology|||IBM|||price_weighted_mean * volume_shares_total": 1,
+    "AI & Technology|||META|||price_weighted_mean * volume_shares_total": -1,
+    "AI & Technology|||MSFT|||spread_mean": 1,
+    "AI & Technology|||NVDA|||spread_mean": -1,
+    "AI & Technology|||ORCL|||spread_mean": -1,
+    "AI & Technology|||QCOM|||price_weighted_mean * volume_shares_total": -1,
+    "AI & Technology|||TXN|||spread_mean": 1,
+    "Acquisitions|||CRM|||shannon_entropy * notional_usdc_total": 1,
+    "Acquisitions|||DIS|||spread_mean": 1,
+    "Acquisitions|||GOOG|||spread_mean": 1,
+    "Acquisitions|||GOOGL|||spread_mean": 1,
+    "Acquisitions|||MSFT|||spread_mean": 1,
+    "Acquisitions|||ORCL|||spread_mean": 1,
+    "Crypto Prices|||PYPL|||spread_mean": 1,
+    "Elections|||DIS|||shannon_entropy * notional_usdc_total": 1,
+    "Elections|||NFLX|||shannon_entropy * notional_usdc_total": -1,
+    "Elections|||TMUS|||shannon_entropy * notional_usdc_total": -1,
+    "Elections|||VZ|||spread_mean": -1,
+    "Energy & Commodities|||COP|||shannon_entropy * notional_usdc_total": -1,
+    "Energy & Commodities|||CVX|||shannon_entropy * notional_usdc_total": -1,
+    "Energy & Commodities|||DUK|||shannon_entropy * notional_usdc_total": -1,
+    "Energy & Commodities|||SO|||shannon_entropy * notional_usdc_total": -1,
+    "Energy & Commodities|||XOM|||shannon_entropy * notional_usdc_total": -1,
+    "Equities & Earnings|||AAPL|||spread_mean": 1,
+    "Equities & Earnings|||AMZN|||spread_mean": 1,
+    "Equities & Earnings|||GOOG|||spread_mean": 1,
+    "Equities & Earnings|||GOOGL|||spread_mean": 1,
+    "Equities & Earnings|||META|||price_weighted_mean * volume_shares_total": -1,
+    "Equities & Earnings|||MSFT|||price_weighted_mean * volume_shares_total": -1,
+    "Fed Policy|||COF|||spread_mean": 1,
+    "Fed Policy|||JPM|||spread_mean": -1,
+    "Fed Policy|||MS|||spread_mean": 1,
+    "Fed Policy|||SCHW|||price_weighted_mean * volume_shares_total": -1,
+    "Fed Policy|||USB|||spread_mean": -1,
+    "Geopolitics|||BA|||shannon_entropy * notional_usdc_total": -1,
+    "Geopolitics|||CAT|||price_weighted_mean * volume_shares_total": 1,
+    "Inflation|||HD|||spread_mean": -1,
+    "Inflation|||LOW|||spread_mean": -1,
+    "Macro / Economy|||AXP|||price_weighted_mean * volume_shares_total": 1,
+    "Macro / Economy|||BAC|||spread_mean": 1,
+    "Macro / Economy|||C|||price_weighted_mean * volume_shares_total": 1,
+    "Macro / Economy|||COF|||shannon_entropy * notional_usdc_total": 1,
+    "Macro / Economy|||GS|||price_weighted_mean * volume_shares_total": 1,
+    "Macro / Economy|||JPM|||spread_mean": 1,
+    "Macro / Economy|||MA|||shannon_entropy * notional_usdc_total": 1,
+    "Macro / Economy|||MS|||price_weighted_mean * volume_shares_total": 1,
+    "Macro / Economy|||SCHW|||price_weighted_mean * volume_shares_total": 1,
+    "Macro / Economy|||V|||spread_mean": -1,
+    "Macro / Economy|||WFC|||spread_mean": 1,
+    "Science & Tech|||AAPL|||shannon_entropy * notional_usdc_total": 1,
+    "Science & Tech|||ADBE|||spread_mean": 1,
+    "Science & Tech|||AMD|||shannon_entropy * notional_usdc_total": 1,
+    "Science & Tech|||AVGO|||shannon_entropy * notional_usdc_total": 1,
+    "Science & Tech|||CRM|||spread_mean": 1,
+    "Science & Tech|||META|||shannon_entropy * notional_usdc_total": 1,
+    "Science & Tech|||MSFT|||shannon_entropy * notional_usdc_total": 1,
+    "Science & Tech|||NVDA|||shannon_entropy * notional_usdc_total": 1,
+    "Science & Tech|||ORCL|||shannon_entropy * notional_usdc_total": 1,
+    "Trade & Tariffs|||CAT|||shannon_entropy * notional_usdc_total": 1,
+    "Trade & Tariffs|||DE|||spread_mean": 1,
+    "Trade & Tariffs|||DOW|||shannon_entropy * notional_usdc_total": 1,
+    "Trade & Tariffs|||F|||shannon_entropy * notional_usdc_total": 1,
+    "Trade & Tariffs|||TSLA|||spread_mean": 1,
+    "US Politics|||DIS|||spread_mean": 1,
+    "US Politics|||TMUS|||shannon_entropy * notional_usdc_total": -1,
+    "War & Conflict|||BA|||shannon_entropy * notional_usdc_total": -1,
+    "War & Conflict|||GE|||spread_mean": -1,
+    "War & Conflict|||RTX|||spread_mean": -1
+  }
+}
